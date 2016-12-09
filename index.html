@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Learning JS">
+  <meta name="keywords" content="HTML,CSS,JavaScript,Piano">
+  <meta name="author" content="Robat Das Orvi">
+  <title>JS Piano Tune</title>
+  <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+
+<!-- Class files for each key -->
+<!-- Introduced new html5 tage data-key -->
+  <div class="keys">
+    <div data-key="65" class="key">
+      <kbd>A</kbd>
+      <span class="sound"></span>
+    </div>
+    <div data-key="83" class="key">
+      <kbd>S</kbd>
+      <span class="sound"></span>
+    </div>
+    <div data-key="68" class="key">
+      <kbd>D</kbd>
+      <span class="sound"></span>
+    </div>
+    <div data-key="70" class="key">
+      <kbd>F</kbd>
+      <span class="sound"></span>
+    </div>
+    <div data-key="71" class="key">
+      <kbd>G</kbd>
+      <span class="sound"></span>
+    </div>
+    <div data-key="72" class="key">
+      <kbd>H</kbd>
+      <span class="sound"></span>
+    </div>
+    <div data-key="74" class="key">
+      <kbd>J</kbd>
+      <span class="sound"></span>
+    </div>
+    <div data-key="75" class="key">
+      <kbd>K</kbd>
+      <span class="sound"></span>
+    </div>
+    <div data-key="76" class="key">
+      <kbd>L</kbd>
+      <span class="sound"></span>
+    </div>
+  </div>
+
+<!-- audio tag and their source files-->
+  <audio data-key="65" src="static/sounds/Casio-VZ-10M-Piano-C2.wav"></audio>
+  <audio data-key="83" src="static/sounds/Ensoniq-ESQ-1-Piano-C3.wav"></audio>
+  <audio data-key="68" src="static/sounds/Ensoniq-SQ-2-Piano-C2.wav"></audio>
+  <audio data-key="70" src="static/sounds/Alesis-Fusion-Bright-Acoustic-Piano-C4.wav"></audio>
+  <audio data-key="71" src="staticsounds/Alesis-Fusion-Honky-Tonk-Piano-C5.wav"></audio>
+  <audio data-key="72" src="static/sounds/Alesis-Fusion-Bright-Acoustic-Piano-C6.wav"></audio>
+  <audio data-key="74" src="static/sounds/Ensoniq-SQ-2-Piano-C7.wav"></audio>
+  <audio data-key="75" src="static/sounds/E-Mu-Proteus-FX-Pianotar-C3.wav"></audio>
+  <audio data-key="76" src="static/sounds/Yamaha-MU90R-ConcertGrand-C6.wav"></audio>
+
+<script src="static/js/sound.js"></script>
+
+
+</body>
+</html>
